@@ -5,9 +5,9 @@ import requests
 from lojas.jsonld import extrair_preco
 
 PRODUTOS = {
-    "Nome do produto": [
-        "COLE_AQUI_O_LINK_DA_KABUM",
-        "COLE_AQUI_O_LINK_DA_TERABYTE",
+    "Teste": [
+        "https://www.kabum.com.br/produto/904345/mouse-gamer-sem-fio-attack-shark-x11-com-base-de-carregamento-magnetico-rgb-tri-mode-22-000-dpi-sensor-optico-paw3311-5-botoes-preto",
+        "https://www.terabyteshop.com.br/produto/37777/fonte-asrock-pro-650w-80-plus-bronze-atx-31-pfc-ativo-preto-pro-650b",
     ],
 }
 
