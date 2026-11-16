@@ -1,5 +1,5 @@
 from urllib.parse import urlparse
-
+import historico
 import requests
 
 from lojas.jsonld import extrair_preco
@@ -37,6 +37,7 @@ for nome, links in PRODUTOS.items():
 
         print(f"{loja}: R$ {r['preco']:.2f}")
         resultados.append((r["preco"], loja, link))
+        historico.salvar(nome, loja, r["preco"], link)
 
     if resultados:
         preco, loja, link = min(resultados)

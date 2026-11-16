@@ -1,4 +1,5 @@
-   venv/
-   __pycache__/
-   pagina.html
-   .env
+venv/
+__pycache__/
+pagina.html
+.env
+historico.db
