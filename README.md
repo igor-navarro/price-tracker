@@ -16,3 +16,10 @@ python comparar.py
 ```
 
 Edite a lista `PRODUTOS` no `comparar.py` com os links dos produtos.
+
+## Histórico de preços
+Cada consulta é salva em um banco SQLite local (`historico.db`).
+Para ver o histórico de um produto:
+```bash
+python ver_historico.py
+```
