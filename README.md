@@ -23,3 +23,6 @@ Para ver o histórico de um produto:
 ```bash
 python ver_historico.py
 ```
+## Configuração dos produtos
+Os produtos ficam no `produtos.json`: nome, preço-alvo e os links de cada loja.
+Quando o menor preço fica abaixo do alvo, o programa mostra um alerta.
